@@ -1,0 +1,105 @@
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #181726;
+}
+
+p {
+    letter-spacing: 0.05rem;
+}
+
+#wrapper {
+    width: 100%;
+    min-height: 94vh;
+    
+    display: flex;
+    
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#contwrapper {
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: auto;
+}
+
+#logowrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+img {
+    width: 100%;
+    max-width: 200px;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    padding: 0;
+    margin: 0;
+    color: #ed6062;
+    font-size: 3.3rem;
+    text-align: center;
+}
+
+.text1 {
+    font-family: 'Archivo', sans-serif;
+    color: #abe1fa;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.text2 {
+    color: #ed6062;
+    font-size: 1.1rem;
+    font-family: 'Archivo', sans-serif;
+    text-align: center;
+    word-break: break-all;
+}
+
+.text3 {
+
+    text-align: center;
+}
+
+.text4 {
+    font-family: 'Archivo', sans-serif;
+    color: #abe1fa;
+    font-size: 1.1rem;
+}
+
+/*------------------------------------------------------*/
+
+@media (max-width: 800px) {
+
+    img {
+        width: 100%;
+        max-width: 170px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+}
+
+
+/*------------------------------------------------------*/
+
+@media (max-width: 500px) {
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+}
+
+
+
